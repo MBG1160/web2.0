@@ -150,6 +150,7 @@ ul{
         top: 0;
         color: var(--black);
         justify-content: center;
+        align-content: center;
     }
 
     .menu a:hover{
@@ -161,6 +162,7 @@ ul{
     .hamb{
         display: none;
         justify-content: center;
+        align-content: center;
     }
 
 }
