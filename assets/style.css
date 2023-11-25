@@ -62,10 +62,9 @@ ul{
 .hamb-line {
     background: var(--white);
     display: block;
-    height: 4px;
+    height: 1px;
     position: relative;
     width: 24px;
-    margin-bottom: 2px;
 
 }
 .hamb-line::before,
