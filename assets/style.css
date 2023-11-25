@@ -170,7 +170,7 @@ ul{
 }
 
 .header-index {
-    height: 330px;
+    height: 1380px;
     width: 100%     !important;
     object-fit: cover;
     object-position: bottom center;
@@ -200,9 +200,20 @@ ul{
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
     .header-index {
         height: 330px;
+        width: 100%     !important;
+        object-fit: cover;
+        object-position: bottom center;
+        position: absolute;
+        padding-top: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .header-index {
+        height: 1380px;
         width: 100%     !important;
         object-fit: cover;
         object-position: bottom center;
