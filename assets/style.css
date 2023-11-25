@@ -220,4 +220,5 @@ ul{
     margin-left: 10px;
     text-decoration: none;
     align-items: center;
+    position: sticky;
 }
