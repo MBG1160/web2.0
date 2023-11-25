@@ -186,7 +186,7 @@ ul{
 }
 
 .header-index {
-    height: 220px;
+    height: 230px;
     width: 100%     !important;
     object-fit: cover;
     object-position: bottom center;
@@ -202,6 +202,6 @@ ul{
 
 @media (min-width: 920px) {
     .hellotext {
-        margin-top: 330px;
+        margin-top: 320px;
     }
 }
