@@ -20,7 +20,7 @@ body{
 
 a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 ul{
@@ -38,8 +38,11 @@ ul{
 .logo{
     display: inline-block;
     color: var(--white);
-    font-size: 18px;
+    padding: 19px;
+    padding-left: none;
+    font-size: 20px;
     margin-left: 10px;
+
 }
 
 .nav{
