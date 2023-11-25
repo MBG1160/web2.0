@@ -33,9 +33,7 @@ ul{
 
 .header{
     background-color: var(--orange);
-    border: none;
-    border-bottom: 20px;
-    border-color: var(--black);
+    box-shadow: var(--black) 1px 1px 10px 0px;
     position: sticky;
     top: 0;
     width: 100%;
