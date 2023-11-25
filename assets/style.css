@@ -31,7 +31,8 @@ ul{
 }
 
 ul.menu {
-    display: none;
+    margin: none;
+    width: none;
 }
 
 .header{
