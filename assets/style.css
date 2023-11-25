@@ -26,12 +26,11 @@ a{
 
 ul{
     list-style: none;
-    display: inline-block;
     color: var(--black);
     padding: 9.5px;
     padding-left: none;
     font-size: 20px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header{
