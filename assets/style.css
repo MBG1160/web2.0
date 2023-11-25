@@ -1,26 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root{
     --white: #FFFAF0;
     --black: #1E1E1E;
     --orange: #FFB74A;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--white);
     font-family: "Poppins", sans-serif;
 }
+
 a{
     text-decoration: none;
     font-size: 24px;
 }
+
 ul{
     list-style: none;
 }
+
 .header{
     background-color: var(--orange);
     box-shadow: 1px 1px 5px 0px var(--orange);
@@ -28,12 +33,14 @@ ul{
     top: 0;
     width: 100%;
 }
+
 .logo{
     display: inline-block;
     color: var(--white);
     font-size: 24px;
     margin-left: 10px;
 }
+
 .nav{
     width: 100%;
     height: 100%;
@@ -42,23 +49,28 @@ ul{
     overflow: hidden;
 
 }
+
 .menu a{
     display: block;
     padding: 5px;
     color: var(--white);
 }
+
 .menu a:hover{
     background-color: var(--orange);
 }
+
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
 }
+
 .hamb{
     cursor: pointer;
     float: right;
     padding: 15px;
 }
+
 .hamb-line {
     background: var(--white);
     display: block;
@@ -68,6 +80,7 @@ ul{
     margin-top: 1px;
 
 }
+
 .hamb-line::before,
 .hamb-line::after{
     background: var(--white);
@@ -78,29 +91,37 @@ ul{
     transition: all .2s ease-out;
     width: 100%;
 }
+
 .hamb-line::before{
     top: 5px;
 }
+
 .hamb-line::after{
     top: -5px;
 }
+
 .side-menu {
     display: none;
 }
+
 .side-menu:checked ~ nav{
     max-height: 100%;
 }
+
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
+
 .side-menu:checked ~ .hamb .hamb-line::before {
     transform: rotate(-45deg);
     top:0;
 }
+
 .side-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
     top:0;
 }
+
 @media (min-width: 920px) {
     .nav{
         max-height: none;
@@ -110,16 +131,13 @@ ul{
         width: fit-content;
         background-color: transparent;
     }
+
     .menu li{
         float: left;
-    }
-    .menu a:hover{
-        background-color: transparent;
-        color: var(--black);
-
     }
 
     .hamb{
         display: none;
     }
+
 }
