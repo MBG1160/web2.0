@@ -30,6 +30,10 @@ ul{
     margin-right: 10px;
 }
 
+ul.menu {
+    display: none;
+}
+
 .header{
     background-color: var(--orange);
     box-shadow: 1px 1px 5px 0px var(--orange);
