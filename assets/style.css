@@ -101,7 +101,7 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
-@media (min-width: 600px) {
+@media (min-width: 920px) {
     .nav{
         max-height: none;
         top: 0;
