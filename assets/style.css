@@ -173,7 +173,7 @@ ul{
     height: 330px;
     width: 100%     !important;
     object-fit: cover;
-    object-position: center center;
+    object-position: bottom center;
     position: absolute;
     padding-top: 10px;
 }
