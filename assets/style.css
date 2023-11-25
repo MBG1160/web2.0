@@ -211,6 +211,7 @@ ul{
 .footertext{
     color: var(--black);
     padding: 5px;
+    margin-top: 5px;
     padding-right: none;
     font-size: 12px;
     margin-right: 10px;
@@ -218,4 +219,5 @@ ul{
     bottom: 0%;
     position: fixed;
     right: 0;
+    background: var(--blue);
 }
