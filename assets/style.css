@@ -60,7 +60,7 @@ ul{
     display: block;
     padding: 5px;
     top: 0;
-    color: var(--black);
+    color: var(--white);
 }
 
 .menu a:hover{
@@ -141,6 +141,13 @@ ul{
 
     .menu li{
         float: left;
+    }
+
+    .menu a{
+        display: block;
+        padding: 5px;
+        top: 0;
+        color: var(--black);
     }
 
     .menu a:hover{
