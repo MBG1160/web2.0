@@ -18,13 +18,13 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-main {
-    position: fixed;
-}
-
 article {
     padding: 10px;
     padding-top: 0px;
+}
+
+img, article {
+    position: fixed;
 }
 
 a{
