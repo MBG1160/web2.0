@@ -148,6 +148,7 @@ ul{
         padding: 5px;
         top: 0;
         color: var(--black);
+        justify-content: center;
     }
 
     .menu a:hover{
@@ -158,6 +159,7 @@ ul{
 
     .hamb{
         display: none;
+        justify-content: center;
     }
 
 }
