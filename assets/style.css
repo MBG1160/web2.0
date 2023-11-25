@@ -59,6 +59,7 @@ ul{
 .menu a{
     display: block;
     padding: 5px;
+    padding-top: 10px;
     top: 0;
     color: var(--white);
 }
