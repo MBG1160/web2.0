@@ -220,6 +220,6 @@ ul{
     }
 }
 
-.side-menu:checked ~ img{
+.side-menu:checked ~ .header-index{
     display: none;
 }
