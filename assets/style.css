@@ -66,6 +66,7 @@ ul{
 .menu a:hover{
     background-color: var(--orange);
     color: var(--black);
+    transition: all .2s ease-in-out;
 }
 
 .nav{
