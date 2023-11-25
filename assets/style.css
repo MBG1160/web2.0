@@ -33,7 +33,7 @@ ul{
 
 .header{
     background-color: var(--orange);
-    box-shadow: 1px 1px 5px 0px var(--orange);
+    border-bottom: 10px var(--black);
     position: sticky;
     top: 0;
     width: 100%;
@@ -175,5 +175,5 @@ ul{
     object-fit: cover;
     object-position: bottom center;
     position: absolute;
-    padding-top: 2px;
+    padding-top: none;
 }
