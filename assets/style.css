@@ -192,3 +192,9 @@ ul{
         display: none;
     }
 }
+
+@media (min-width: 920px) {
+    .hellotext {
+        margin-top: 330px;
+    }
+}
