@@ -41,7 +41,7 @@ ul{
 .header{
     background-color: var(--orange);
     box-shadow: var(--black) 1px 1px 10px 0px;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     color: var(--black);
