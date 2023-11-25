@@ -18,6 +18,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    position: static;
+}
+
 article {
     padding: 10px;
     padding-top: 0px;
@@ -41,7 +45,7 @@ ul{
 .header{
     background-color: var(--orange);
     box-shadow: var(--black) 1px 1px 10px 0px;
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
     color: var(--black);
