@@ -115,7 +115,7 @@ ul{
     }
     .menu a:hover{
         background-color: transparent;
-        color: var(--orange);
+        color: var(--black);
 
     }
 
