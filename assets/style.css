@@ -199,3 +199,14 @@ ul{
         padding-top: none;
     }
 }
+
+@media (min-width: 900px) {
+    .header-index {
+        height: 250px;
+        width: 100%     !important;
+        object-fit: cover;
+        object-position: bottom center;
+        position: absolute;
+        padding-top: none;
+    }
+}
