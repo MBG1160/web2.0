@@ -16,6 +16,7 @@ body{
 }
 a{
     text-decoration: none;
+    font-size: 24px;
 }
 ul{
     list-style: none;
@@ -30,7 +31,7 @@ ul{
 .logo{
     display: inline-block;
     color: var(--white);
-    font-size: 16px;
+    font-size: 24px;
     margin-left: 10px;
 }
 .nav{
@@ -43,7 +44,7 @@ ul{
 }
 .menu a{
     display: block;
-    padding: 30px;
+    padding: 5px;
     color: var(--white);
 }
 .menu a:hover{
