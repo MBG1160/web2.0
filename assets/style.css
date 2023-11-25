@@ -177,14 +177,13 @@ ul{
     }
 
     .header-index {
-    height: 330px;
-    width: 100%     !important;
-    object-fit: cover;
-    object-position: bottom center;
-    position: absolute;
-    padding-top: none;
-}
-
+        width: 100%     !important;
+        object-fit: cover;
+        object-position: bottom center;
+        position: absolute;
+        height: 330px;
+        padding-top: none;
+    }
 }
 
 .header-index {
@@ -202,11 +201,6 @@ ul{
     }
 }
 
-@media (min-width: 920px) {
-    .hellotext {
-        margin-top: 310px;
-    }
-}
 
 .footertext{
     color: var(--black);
