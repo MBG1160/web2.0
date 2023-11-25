@@ -4,6 +4,7 @@
     --white: #FFFAF0;
     --black: #1E1E1E;
     --orange: #FFB74A;
+    --blue: #006FBF;
 }
 
 *{
@@ -23,7 +24,7 @@ article {
 }
 
 a{
-    color: #ABDCFF;
+    color: var(--blue);
 }
 
 ul{
