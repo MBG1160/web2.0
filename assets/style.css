@@ -118,10 +118,6 @@ ul{
     max-height: 100%;
 }
 
-.side-menu:checked ~ .header-index{
-    display: none;
-}
-
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
@@ -171,6 +167,15 @@ ul{
         align-content: center;
     }
 
+    .header-index {
+    height: 330px;
+    width: 100%     !important;
+    object-fit: cover;
+    object-position: bottom center;
+    position: absolute;
+    padding-top: none;
+}
+
 }
 
 .header-index {
@@ -213,4 +218,8 @@ ul{
         position: absolute;
         padding-top: none;
     }
+}
+
+.side-menu:checked ~ img{
+    display: none;
 }
