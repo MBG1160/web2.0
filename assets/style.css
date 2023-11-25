@@ -180,7 +180,7 @@ ul{
 
 @media (max-width: 430px) {
     .header-index {
-        height: 150px;
+        height: 90px;
         width: 100%     !important;
         object-fit: cover;
         object-position: bottom center;
@@ -191,7 +191,7 @@ ul{
 
 @media (max-width: 650px) {
     .header-index {
-        height: 70px;
+        height: 150px;
         width: 100%     !important;
         object-fit: cover;
         object-position: bottom center;
