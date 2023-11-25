@@ -219,3 +219,7 @@ ul{
     position: fixed;
     right: 0;
 }
+
+main {
+    padding-bottom: 20px;
+}
