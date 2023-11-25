@@ -178,7 +178,7 @@ ul{
     padding-top: none;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 650px) {
     .header-index {
         height: 90px;
         width: 100%     !important;
@@ -189,9 +189,9 @@ ul{
     }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 655px) {
     .header-index {
-        height: 150px;
+        height: 250px;
         width: 100%     !important;
         object-fit: cover;
         object-position: bottom center;
