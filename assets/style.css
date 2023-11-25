@@ -212,21 +212,12 @@ ul{
     }
 }
 
-.footer{
-    background-color: var(--blue);
-    box-shadow: var(--black) 1px 1px 0px 1px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    color: var(--black);
-}
-
 .footertext{
-    display: inline-block;
     color: var(--black);
     padding: 5px;
     padding-left: none;
     font-size: 12px;
     margin-left: 10px;
     text-decoration: none;
+    align-items: center;
 }
