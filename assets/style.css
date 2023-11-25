@@ -57,12 +57,12 @@ ul{
 .hamb{
     cursor: pointer;
     float: right;
-    padding: 0px;
+    padding: 20px;
 }
 .hamb-line {
     background: var(--white);
     display: block;
-    height: 2px;
+    height: 4px;
     position: relative;
     width: 24px;
 
