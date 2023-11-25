@@ -220,9 +220,9 @@ ul{
 .footertext{
     display: inline-block;
     color: var(--black);
-    padding: 9.5px;
+    padding: 5px;
     padding-left: none;
-    font-size: 20px;
+    font-size: 12px;
     margin-left: 10px;
     text-decoration: none;
 }
