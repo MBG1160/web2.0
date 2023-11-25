@@ -52,7 +52,7 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
-
+    justify-content: center;
 }
 
 .menu a{
