@@ -19,7 +19,7 @@ body{
 }
 
 main {
-    position: static;
+    position: fixed;
 }
 
 article {
