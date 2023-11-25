@@ -174,7 +174,7 @@ ul{
     width: 100%     !important;
     object-fit: cover;
     position: absolute; 
-    clip:rect(50px 550px 300px 100px);
+    clip:rect(35% 100% 500px 0px);
     position: absolute;
     padding-top: 30px;
 }
