@@ -202,7 +202,7 @@ ul{
 
 @media (min-width: 900px) {
     .header-index {
-        height: 250px;
+        height: 330px;
         width: 100%     !important;
         object-fit: cover;
         object-position: bottom center;
