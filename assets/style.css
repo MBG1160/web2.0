@@ -24,7 +24,8 @@ article {
 }
 
 a{
-    color: var(--blue);
+    color: #ABDCFF;
+    text-decoration: underline;
 }
 
 ul{
