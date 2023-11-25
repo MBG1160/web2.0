@@ -215,10 +215,11 @@ ul{
 .footertext{
     color: var(--black);
     padding: 5px;
-    padding-left: none;
+    padding-right: none;
     font-size: 12px;
-    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: none;
     bottom: 0%;
     position: fixed;
+    right: 0;
 }
