@@ -25,12 +25,12 @@ a{
 
 ul{
     list-style: none;
+    display: inline-block;
     color: var(--black);
-    padding-right: 9.5px;
+    padding: 9.5px;
+    padding-right: none;
     font-size: 20px;
     margin-right: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .header{
