@@ -222,4 +222,6 @@ ul{
 
 .side-menu:checked ~ .header-index{
     display: none;
+    position:relative;
+    background: transparent;
 }
