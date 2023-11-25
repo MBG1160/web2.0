@@ -180,6 +180,17 @@ ul{
 
 @media (max-width: 560px) {
     .header-index {
+        height: 70px;
+        width: 100%     !important;
+        object-fit: cover;
+        object-position: bottom center;
+        position: absolute;
+        padding-top: none;
+    }
+}
+
+@media (max-width: 920px) {
+    .header-index {
         height: 150px;
         width: 100%     !important;
         object-fit: cover;
