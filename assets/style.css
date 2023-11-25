@@ -210,8 +210,8 @@ ul{
 
 .footer{
     background-color: var(--blue);
-    box-shadow: var(--black) 1px 1px 0px 10px;
-    position: sticky;
+    box-shadow: var(--black) 1px 1px 0px 1px;
+    position: fixed;
     top: 0;
     width: 100%;
     color: var(--black);
