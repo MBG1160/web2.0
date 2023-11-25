@@ -23,7 +23,7 @@ ul{
 }
 .header{
     background-color: var(--black);
-    box-shadow: 1px 1px 5px 0px var(--gray);
+    box-shadow: 1px 1px 5px 0px var(--orange);
     position: sticky;
     top: 0;
     width: 100%;
@@ -48,7 +48,7 @@ ul{
     color: var(--white);
 }
 .menu a:hover{
-    background-color: var(--gray);
+    background-color: var(--orange);
 }
 .nav{
     max-height: 0;
@@ -115,7 +115,7 @@ ul{
     }
     .menu a:hover{
         background-color: transparent;
-        color: var(--gray);
+        color: var(--orange);
 
     }
 
