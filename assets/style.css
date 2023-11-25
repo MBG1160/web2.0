@@ -178,7 +178,7 @@ ul{
     padding-top: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 440px) {
     .header-index {
         height: 90px;
         width: 100%     !important;
@@ -189,7 +189,7 @@ ul{
     }
 }
 
-@media (min-width: 655px) {
+@media (min-width: 440px) {
     .header-index {
         height: 250px;
         width: 100%     !important;
