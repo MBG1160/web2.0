@@ -188,14 +188,3 @@ ul{
         padding-top: none;
     }
 }
-
-@media (max-width: 700px) {
-    .header-index {
-        height: 150px;
-        width: 100%     !important;
-        object-fit: cover;
-        object-position: bottom center;
-        position: absolute;
-        padding-top: none;
-    }
-}
