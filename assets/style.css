@@ -194,9 +194,7 @@ ul{
 .header-index {
     height: 330px;
     width: 100%     !important;
-    object-fit: cover;
     object-position: bottom center;
-    position: static;
     padding-top: none;
     margin: none;
 }
