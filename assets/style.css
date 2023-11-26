@@ -20,6 +20,8 @@ body{
 
 article {
     padding: 10px;
+    margin: 0;
+    padding-top: 0px;
 }
 
 a{
