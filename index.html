@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="./assets/style.css" type="text/css" rel="stylesheet" />
+    <script src="/assets/main.js"></script>
 
     <title>MBG1160 Home</title>
 </head>
@@ -63,32 +64,3 @@
     </footer>
 </body>
 </html>
-
-<style>
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-}
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 1}
-}
-</style>
-
-<script>
-    let index = 0;
-displayImages();
-function displayImages() {
-  let i;
-  const images = document.getElementsByClassName("image");
-  for (i = 0; i < images.length; i++) {
-    images[i].style.display = "none";
-  }
-  index++;
-  if (index > images.length) {
-    index = 1;
-  }
-  images[index-1].style.display = "block";
-  setTimeout(displayImages, 8000); 
-}
-</script>
