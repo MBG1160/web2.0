@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-        <img class="header-index" src="/assets/img/grenzbf.JPG">
+        <img class="header-index">
         <article>
             <h1>
                 Herzlich Willkommen bei der Modellbaugruppe Ottakring!
@@ -50,3 +50,26 @@
     </footer>
 </body>
 </html>
+
+<script>
+    var timeChange = 3000;
+    var bildChange = [
+    'https://files.homepagemodules.de/b104774/f46t1197p2704n55_crUpGYli.jpg',
+    'https://files.homepagemodules.de/b104774/f46t1197p2704n56_IJocTREC.jpg',
+    'https://files.homepagemodules.de/b104774/f46t1197p2704n52_tKbFyagH.jpg',
+    'https://files.homepagemodules.de/b104774/pictures_u554_tFrmxKbz.jpg'
+    ];
+     
+    var zeileChange = "0";
+    function bildwechseln() {
+    document.getElementsByTagName("img")[0].img=bildChange[zeileChange];
+    zeileChange++;
+    if (zeileChange == bildChange.length) {
+    zeileChange = 0;
+    }
+     
+    setTimeout("bildwechseln()",timeChange);
+    }
+     
+    window.onload = bildwechseln;
+    </script>
