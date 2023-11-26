@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="/assets/style.css" type="text/css" rel="stylesheet" />
-    <script src="/assets/main.js"></script> 
+    <link href="./assets/style.css" type="text/css" rel="stylesheet" />
 
     <title>MBG1160 Home</title>
 </head>
@@ -28,15 +27,15 @@
        <!-- <img class="header-index" id="headerimg"> -->
 
        <div class="image-slideshow">
-        <div class="image fade">
-        <img src="https://iili.io/HWdl3Al.md.jpg" alt="Mountain Top">
-        </div>        
-        <div class="image fade">
-        <img src="https://iili.io/HWdlRDB.md.jpg" alt="Palm Trees">
-        </div>        
-        <div class="image fade">
-        <img src="https://iili.io/HWdlWDN.md.jpg" alt="Neon Sign">
-        </div>
+            <div class="image fade header-index">
+                <img src="https://iili.io/HWdl3Al.md.jpg" alt="Mountain Top">
+            </div>        
+            <div class="image fade">
+                <img src="https://iili.io/HWdlRDB.md.jpg" alt="Palm Trees">
+            </div>        
+            <div class="image fade">
+                <img src="https://iili.io/HWdlWDN.md.jpg" alt="Neon Sign">
+            </div>
       </div>
 
         <article>
@@ -64,3 +63,32 @@
     </footer>
 </body>
 </html>
+
+<style>
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+</style>
+
+<script>
+    let index = 0;
+displayImages();
+function displayImages() {
+  let i;
+  const images = document.getElementsByClassName("image");
+  for (i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  index++;
+  if (index > images.length) {
+    index = 1;
+  }
+  images[index-1].style.display = "block";
+  setTimeout(displayImages, 2000); 
+}
+</script>
