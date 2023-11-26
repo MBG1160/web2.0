@@ -184,6 +184,8 @@ ul{
         position: absolute;
         height: 330px;
         padding-top: none;
+        margin: none;
+        top: 0;
     }
 }
 
@@ -194,7 +196,7 @@ ul{
     object-position: bottom center;
     position: static;
     padding-top: none;
-    top: 0px;
+    margin: none;
 }
 
 @media (max-width: 920px) {
