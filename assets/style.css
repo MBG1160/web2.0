@@ -194,7 +194,9 @@ ul{
 .header-index {
     height: 330px;
     width: 100%     !important;
+    object-fit: cover;
     object-position: bottom center;
+    position: static;
     padding-top: none;
     margin: none;
 }
@@ -218,12 +220,22 @@ ul{
     right: 0;
 }
 
+.image-slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    width: 100%
+}
+
 .fade {
     animation-name: fade;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 @keyframes fade {
-    from {opacity: .2}
+    from {opacity: .5}
     to {opacity: 1}
 }
