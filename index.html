@@ -24,7 +24,16 @@
             </ul>
         </nav>
     </header>
-        <img class="header-index">
+        <!-- <img class="header-index" id="headerimg"> -->
+
+        <div id="headerimg">
+            <img src="/images/b1.jpg" class="bgM"/>
+            <img src="/images/b2.jpg" class="bgM"/>
+            <img src="/images/b3.jpg" class="bgM"/>
+            <img src="/images/b4.jpg" class="bgM"/>
+            <img src="/images/b5.jpg" class="bgM"/>
+        </div> 
+
         <article>
             <h1>
                 Herzlich Willkommen bei der Modellbaugruppe Ottakring!
@@ -51,25 +60,29 @@
 </body>
 </html>
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.2.74.js"></script>
 <script>
-    var timeChange = 3000;
-    var bildChange = [
-    'https://files.homepagemodules.de/b104774/f46t1197p2704n55_crUpGYli.jpg',
-    'https://files.homepagemodules.de/b104774/f46t1197p2704n56_IJocTREC.jpg',
-    'https://files.homepagemodules.de/b104774/f46t1197p2704n52_tKbFyagH.jpg',
-    'https://files.homepagemodules.de/b104774/pictures_u554_tFrmxKbz.jpg'
-    ];
-     
-    var zeileChange = "0";
-    function bildwechseln() {
-    document.getElementsByTagName("img")[0].img=bildChange[zeileChange];
-    zeileChange++;
-    if (zeileChange == bildChange.length) {
-    zeileChange = 0;
+$(document).ready(function() {
+$('#slideshow').cycle({
+fx: 'fade',
+pager: '#headerimg',
+pause: 1,
+speed: 1800,
+timeout: 3500
+});
+});
+</script> 
+
+<style>
+    #headerimg, img.bgM {
+        height: 330px;
+        width: 100% !important;
+        top: 0;
+        object-fit: cover;
+        object-position: bottom center;
+        position: absolute;
+        padding-top: none;
+        margin: none;
     }
-     
-    setTimeout("bildwechseln()",timeChange);
-    }
-     
-    window.onload = bildwechseln;
-    </script>
+</style>
