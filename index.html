@@ -24,13 +24,18 @@
             </ul>
         </nav>
     </header>
-        <!-- <img class="header-index" id="headerimg"> -->
-
-        <div id="headerimg">
-            <img src="/assets/img/grenzbf.img" class="bgM"/>
-            <img src="/assets/img/" class="bgM"/>
-        </div> 
-
+        <img class="header-index" id="headerimg">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="/assets/img/grenzbf.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="/assets/img/grenzbf.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="/assets/img/grenzbf.JPG" style="width:100%">
+            </div>    
+        </div>
         <article>
             <h1>
                 Herzlich Willkommen bei der Modellbaugruppe Ottakring!
@@ -57,29 +62,21 @@
 </body>
 </html>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.cycle.all.2.74.js"></script>
 <script>
-$(document).ready(function() {
-$('#slideshow').cycle({
-fx: 'fade',
-pager: '#headerimg',
-pause: 1,
-speed: 1800,
-timeout: 3500
-});
-});
-</script> 
-
-<style>
-    #headerimg, img.bgM {
-        height: 330px;
-        width: 100% !important;
-        top: 0;
-        object-fit: cover;
-        object-position: bottom center;
-        position: absolute;
-        padding-top: none;
-        margin: none;
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 5000);
     }
-</style>
+</script>
