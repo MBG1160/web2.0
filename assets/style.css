@@ -194,6 +194,7 @@ ul{
     object-position: bottom center;
     position: static;
     padding-top: none;
+    top: 0px;
 }
 
 @media (max-width: 920px) {
