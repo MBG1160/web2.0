@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+
+    <title>MBG1160 Home</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://mbg1160.at" class="logo">MBG1160</a>
+        <a href="https://mbg1160.at" class="logo-b">Modellbaurguppe Ottakring</a>
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/de-at/about.html">Über Uns</a> </li>
+                <li><a href="/de-at/anlage.html">Unsere Anlage</a></li>
+                <li><a href="/de-at/galerie.html">Galerie</a></li>
+                <li><a href="/de-at/mitglied-werden.html">Beitreten</a></li>
+                <li><a href="/de-at/kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+       <div class="image-slideshow">
+            <div class="image">
+                <img style="width: 100%; height: 330px; object-fit: cover; object-position: bottom center;" src="/assets/img/grenzbf.JPG" alt="Grenzbahnhof DE-Raum">
+            </div>        
+            <div class="image">
+                <img style="width: 100%; height: 330px; object-fit: cover; object-position: bottom center;" src="https://iili.io/HWdlRDB.md.jpg" alt="Palm Trees">
+            </div>        
+            <div class="image">
+                <img style="width: 100%; height: 330px; object-fit: cover; object-position: bottom center;" src="https://iili.io/HWdlWDN.md.jpg" alt="Neon Sign">
+            </div>
+      </div>
+
+        <article>
+            <h1>
+                Herzlich Willkommen bei der Modellbaugruppe Ottakring!
+            </h1>
+            <p style="text-align:justify">
+                In Ottakring wurde ab August 1992 mit der Adaptierung unserer Räumlichkeiten der Grundstein für eine der größten privaten Modelleisenbahnanlagen Wiens gelegt.<br>Der Fahrbetrieb konnte schon knapp ein Jahr danach aufgenommen und schrittweise erweitert werden.<br><br>Diese Homepage versucht, einen Überblick über unsere Anlage sowie Veranstaltungstermine und aktuelle Tätigkeiten zu vermitteln.
+            </p>
+            <br>
+            <h2>
+                Nächster Termin:
+            </h2>
+            <p>
+                Der nächste Termin ist am Sonntag, 03.12.2023, an dem wir von 14:00 bis 18:00 Uhr unsere Pforten geöffnet haben.
+            </p>
+            <br>
+            <h2>Terminlisten</h2>
+            Download: <a href="/assets/pdf/">Fahrtage 2023</a><br>
+            Download: <a href="/assets/pdf/">Fahrtage bis Juli 2024</a>
+        </article>
+    <br><br>
+    <footer class="footer">
+        <a href="https://mbg1160.at" class="footertext">&copy 2023 - Heute | Modellbaugruppe Ottakring</a>
+    </footer>
+</body>
+</html>
+
+<script>
+    let index = 0;
+    displayImages();
+    function displayImages() {
+        let i;
+        const images = document.getElementsByClassName("image");
+        for (i = 0; i < images.length; i++) {
+            images[i].style.display = "none";
+        }
+        index++;
+        if (index > images.length) {
+            index = 1;
+        }
+        images[index-1].style.display = "block";
+        setTimeout(displayImages, 8000); 
+    }
+</script>
