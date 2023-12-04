@@ -2,7 +2,7 @@
 📌 Die neue Website der Modellbaugruppe Ottakring.<br>
 📡 Deployment: https://mbgwien.netlify.app/
 
-🗓️**Version:** v2.4.9
+🗓️**Version:** v2.5.1
 
 <br>
 <br>
