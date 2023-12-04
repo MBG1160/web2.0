@@ -11,6 +11,10 @@
 🗃️**Changelog:**
 
 <br>
+📝 **Dez, 04th 2023**
+-  Added Pages + Content
+- Added Meta-Tags (SEO)
+___
 
 📝 **Nov, 26th 2023**
 -  Readme.md Added
