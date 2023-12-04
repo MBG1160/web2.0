@@ -14,7 +14,7 @@
 
 📝 **Dez, 04th 2023**
 -  Added Pages + Content
-- Added Meta-Tags (SEO)
+-  Added Meta-Tags (SEO)
 ___
 
 📝 **Nov, 26th 2023**
