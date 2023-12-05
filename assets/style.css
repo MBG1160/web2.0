@@ -237,3 +237,7 @@ ul{
     position: fixed;
     right: 0;
 }
+
+br {
+    font-size: 10px;
+}
