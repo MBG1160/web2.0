@@ -234,7 +234,7 @@ ul{
     margin-right: 10px;
     text-decoration: none;
     bottom: 0px;
-    position: fixed;
+    position: relative;
     right: 0;
 }
 
